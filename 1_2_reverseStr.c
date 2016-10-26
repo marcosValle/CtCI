@@ -22,3 +22,11 @@ int main(){
 		printf("%c", str[i]);
 	}
 }
+
+/*
+#### ANALYSIS ####
+
+#### QUESTIONS ####
+What with the solution using pointers?
+	(???) Using pointers there is no need to allocate the string vector -> better space complexity
+*/
