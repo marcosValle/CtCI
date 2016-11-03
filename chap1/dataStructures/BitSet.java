@@ -1,5 +1,6 @@
 /*Very basic implementation of a BitSet data structure
  *A simple array stores boolean values
+ *The actual implementation in java.util.BitSet uses an array of longs and then maps the index%64 inside of this "word"
  */
 public class BitSet{
     boolean[] bitSet;
